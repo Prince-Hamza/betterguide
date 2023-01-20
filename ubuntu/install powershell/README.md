@@ -1,6 +1,6 @@
-Update the list of packages
+### Update the list of packages
 
-### sudo apt-get update
+#### sudo apt-get update
 
 # Install pre-requisite packages.
 sudo apt-get install -y wget apt-transport-https software-properties-common
