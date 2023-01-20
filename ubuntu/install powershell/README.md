@@ -1,6 +1,8 @@
 #### Update the list of packages
 
-``` sudo apt-get update ```
+``` 
+sudo apt-get update 
+```
 
 ```
 npm t -- -t tests/SimplHTML.js --testcase "Simple HTML"
