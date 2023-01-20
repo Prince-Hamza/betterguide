@@ -1,4 +1,4 @@
-###### Update the list of packages
+##### Update the list of packages
 
 ``` sudo apt-get update ```
 
