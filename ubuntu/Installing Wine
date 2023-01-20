@@ -1,0 +1,5 @@
+lscpu   # get your cpu arch
+sudo wget -nc -O /usr/share/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key 
+sudo apt update
+sudo apt install wine64    # according to arch
+sudo apt install wine32    # according to arch
