@@ -11,10 +11,10 @@ cd android
 
 
 ```
-gradlew clean
+./gradlew clean
 ```
 
 
 ```
-gradlew assembleRelease -x bundleReleaseJsAndAssets
+./gradlew assembleRelease -x bundleReleaseJsAndAssets
 ```
