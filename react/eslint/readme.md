@@ -1,5 +1,18 @@
-#### 1. create file eslintrc.json in root
-#### 2. copy paste following json
+####  install yarn
+```
+npm install -g yarn
+```
+
+#### add eslint parser dependency 
+```
+yarn add @babel/eslint-parser
+```
+
+##### above two steps might be optional depending on vs code settings
+
+
+####  create file eslintrc.json in root
+####  copy paste following json
 
 ```
 {
@@ -49,3 +62,15 @@
     }
 }
 ```
+
+
+
+#### minimum vs code settings 
+```
+{
+    "workbench.colorTheme": "Default Dark+",
+    "files.autoSave": "afterDelay",
+    "eslint.enable": true
+}
+```
+eslint is believed to be enabled by default
