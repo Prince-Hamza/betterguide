@@ -1,5 +1,5 @@
-#### create file eslintrc.json in root
-#### copy paste following json
+#### 1. create file eslintrc.json in root
+#### 2. copy paste following json
 
 ```
 {
