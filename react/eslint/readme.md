@@ -8,7 +8,7 @@ npm install -g yarn
 yarn add @babel/eslint-parser
 ```
 
-##### above two steps might be optional depending on vs code settings
+above two steps might be optional depending on vs code settings
 
 
 ####  create file eslintrc.json in root
