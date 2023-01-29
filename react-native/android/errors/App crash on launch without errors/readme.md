@@ -2,7 +2,7 @@
 
 #### Error caused by mismatching apk name
 
-apk name must be same in : 
+apk name must be same in : \
 ``` ./index.js ``` \
 ``` ./app.json ```
 
