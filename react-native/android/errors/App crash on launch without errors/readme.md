@@ -3,12 +3,12 @@
 #### Error caused by mismatching apk name
 
 apk name must be same in : 
-``` ./index.js ```
+``` ./index.js ``` \
 ``` ./app.json ```
 
 #### all files in ./android specially
 
-``` ./android/app/src/main/* ```
+``` ./android/app/src/main/* ``` \
 ``` ./android/app/src/debug/* ```
 
 
