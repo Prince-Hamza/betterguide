@@ -38,12 +38,20 @@ def REACT_NATIVE_VERSION = new File(['node', '--print',"JSON.parse(require('fs')
 
 allprojects {
 
-       configurations.all {
-    resolutionStrategy {
-        // Remove this override in 0.65+, as a proper fix is included in react-native itself.
-        force "com.facebook.react:react-native:" + REACT_NATIVE_VERSION
-    }
-    }
+    configurations.all {
+        resolutionStrategy {
+            force 'com.google.firebase:firebase-common:17.0.0'
+            force 'com.google.firebase:firebase-iid:16.0.0'
+            force 'com.google.firebase:firebase-auth:17.0.0'
+            force 'com.facebook.react:react-native:0.66.4'
+            force 'androidx.annotation:annotation:1.6.0-beta01'
+            force 'com.ironsource.sdk:mediationsdk:7.2.7'
+            force 'org.webkit:android-jsc:r250230'
+            force "org.jetbrains.kotlin:kotlin-stdlib:${kotlin_version}"
+            force "org.jetbrains.kotlin:kotlin-stdlib-common:${kotlin_version}"
+            force "org.jetbrains.kotlin:kotlin-reflect:${kotlin_version}"
+        }
+    } 
     
     repositories {
         mavenLocal()
