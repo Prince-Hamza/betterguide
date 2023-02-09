@@ -4,12 +4,12 @@
 sudo apt install curl
 ```
 
-#### step 2
+#### install nvm script using curl
 ```
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
 ```
 
-#### step 3
+#### load refernces everytime terminal is opened
 ```
 source ~/.profile   
 ```
