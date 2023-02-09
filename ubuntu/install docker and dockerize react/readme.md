@@ -77,11 +77,11 @@ CMD [ "npx", "run", "dev-start" ]
 
 #### Build docker image
 ```
-docker build . -t dockerized-react
+sudo docker build . -t dockerized-react
 ```
 
 #### Run docker image
 ```
-docker run -p 3000:3000 -d dockerized-react
+sudo docker run -p 3000:3000 -d dockerized-react
 ```
 
