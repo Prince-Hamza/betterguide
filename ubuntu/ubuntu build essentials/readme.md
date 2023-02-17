@@ -7,5 +7,5 @@
  #### additionals
  
  ```
- sudo apt-get install libavcodec58 ffmpeg
+ sudo apt install libavcodec58 ffmpeg
  ```
