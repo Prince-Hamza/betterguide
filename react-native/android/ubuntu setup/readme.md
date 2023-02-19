@@ -5,7 +5,7 @@
 3. Android Sdk build tools
 4. Platform-tools
 
-### !.OpenJdk
+### 1. OpenJdk
 
 #### update references
 ```
@@ -23,5 +23,8 @@ sudo apt install openjdk-11-jdk
 java -v
 ```
 
-### 2.Android Sdk
+### 2. Android Sdk
+
+
+
 
