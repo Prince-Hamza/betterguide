@@ -2,8 +2,9 @@
 #### To setup react native correctly you need 4 things
 1. OpenJdk
 2. Android Sdk
-3. Android Sdk build tools
-4. Platform-tools
+3. Set environment variables
+4. Android Sdk build tools
+5. Platform-tools
 
 ### 1. OpenJdk
 
