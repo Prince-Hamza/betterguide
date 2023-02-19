@@ -5,6 +5,8 @@
 3. Android Sdk build tools
 4. Platform-tools
 
+### !.OpenJdk
+
 #### update references
 ```
 sudo apt update
@@ -24,3 +26,7 @@ java -v
 
 #### install latest sdk : sdk 13 as of 2023
 ```
+
+
+### 2.Android Sdk
+
