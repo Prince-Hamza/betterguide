@@ -46,12 +46,8 @@ wget https://dl.google.com/android/repository/commandlinetools-linux-6609375_lat
 unzip commandlinetools-linux-6609375_latest.zip -d cmdline-tools/latest
 ```
 
-#### export latest bin path
-```
-export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
-```
-
 ### Set Environment variables
+
 #### goto root
 ```
 cd ~
@@ -64,13 +60,23 @@ nano ~/.bashrc
 
 #### scroll down to end of file using pagedown button or downkey. in end paste this:
 ```
+export ANDROID_SDK_ROOT=/usr/lib/android-sdk
+export PATH=$PATH:$ANDROID_SDK_ROOT/cmdline-tools/tools/bin
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-export ANDROID_HOME=/usr/lib/android-sdk
-export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/tools/bin
+```
+
+#### globalize changes
+```
+source ~/.bashrc
 ```
 
 
 ### 3. install latest build tools
+
+#### Set administrator access to avoid filesystem issues
+```
+sudo chown $USER:$USER $ANDROID_HOME -R
+```
 
 #### run sdkmanager to check it is install and configured.it should give you list of commands and flags you can use
 ```
