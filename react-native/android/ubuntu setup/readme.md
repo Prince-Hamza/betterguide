@@ -48,7 +48,7 @@ unzip commandlinetools-linux-6609375_latest.zip -d cmdline-tools/latest
 
 ### Set Environment variables
 
-#### goto root
+#### goto root (optional)
 ```
 cd ~
 ```
