@@ -51,9 +51,10 @@ wget https://dl.google.com/android/repository/commandlinetools-linux-6609375_lat
 unzip commandlinetools-linux-6609375_latest.zip -d cmdline-tools/latest
 ```
 
-
-
-
+#### export latest bin path
+```
+export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$PATH
+```
 
 
 
