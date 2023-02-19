@@ -132,9 +132,17 @@ sdkmanager
 sdkmanager --update
 ```
 
-#### latest platform tools
+#### download platform tools : latest & most commonly used
 ```
 sdkmanager "build-tools;31.0.0"
+```
+
+```
+sdkmanager "build-tools;32.0.0"
+```
+
+```
+sdkmanager "build-tools;33.0.0"
 ```
 
 
