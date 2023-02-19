@@ -36,18 +36,38 @@ sudo apt install android-sdk
 cd /usr/lib/android-sdk
 ```
 
+#### create cmdline directory (if does not exist)
+
+```
+sudo mkdir cmdline-tools
+```
+
 #### install latest command line tools (zip file)
 ```
 wget https://dl.google.com/android/repository/commandlinetools-linux-6609375_latest.zip
 ```
 
-
 #### unzip tools 
 ```
-unzip commandlinetools-linux-6609375_latest.zip -d cmdline-tools/latest
+unzip commandlinetools-linux-6609375_latest.zip -d cmdline-tools
+```
+it will create a another cmdline-tools folder in cmdline-tools
+
+#### rename unzipped folder
+```
+cd cmdline-tools
+```
+```
+sudo mv cmdline-tools tools
 ```
 
-
+#### Check: your directory structure should now be : /usr/lib/android-sdk/cmline-tools/tools. in tools you would have files relevant to sdk.
+```
+cd /usr/lib/android-sdk/cmline-tools/tools
+```
+```
+ls
+```
 
 
 
