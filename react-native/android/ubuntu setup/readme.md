@@ -47,7 +47,17 @@ wget https://dl.google.com/android/repository/commandlinetools-linux-6609375_lat
 unzip commandlinetools-linux-6609375_latest.zip -d cmdline-tools/latest
 ```
 
-### Set Environment variables
+
+
+
+
+
+
+
+
+### 3. Set Environment variables
+
+by default components in android-sdk are obsolete due to shortcomings of apt packager. we will update / install new components.
 
 #### goto root (optional)
 ```
@@ -72,11 +82,15 @@ source ~/.bashrc
 ```
 
 
-### 3. install latest build tools
+
+
+
+
+### 4. install latest build tools
 
 #### Set administrator access to avoid filesystem issues
 ```
-sudo chown $USER:$USER $ANDROID_HOME -R
+sudo chown $USER:$USER $ANDROID_SDK_ROOT -R
 ```
 
 #### run sdkmanager to check it is install and configured.it should give you list of commands and flags you can use
@@ -89,6 +103,13 @@ sdkmanager
 ```
 sdkmanager --update
 ```
+
+#### latest platform tools
+```
+sdkmanager "build-tools;31.0.0"
+```
+
+
 
 
 
