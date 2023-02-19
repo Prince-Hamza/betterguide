@@ -23,10 +23,5 @@ sudo apt install openjdk-11-jdk
 java -v
 ```
 
-
-#### install latest sdk : sdk 13 as of 2023
-```
-
-
 ### 2.Android Sdk
 
