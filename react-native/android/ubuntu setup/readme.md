@@ -61,9 +61,9 @@ cd cmdline-tools
 sudo mv cmdline-tools tools
 ```
 
-#### Check: your directory structure should now be : /usr/lib/android-sdk/cmline-tools/tools. in tools you would have files relevant to sdk.
+#### Check: your directory structure should now be : /usr/lib/android-sdk/cmdline-tools/tools. in tools you would have files relevant to sdk.
 ```
-cd /usr/lib/android-sdk/cmline-tools/tools
+cd /usr/lib/android-sdk/cmdline-tools/tools
 ```
 ```
 ls
