@@ -112,7 +112,7 @@ sdkmanager "build-tools;31.0.0"
 
 #### Check : you must be able to see folder 31.0.0 in $ANDROID_SDK_ROOT/build-tools
 ```
-cd $ANDROID_SDK_ROOT
+cd $ANDROID_SDK_ROOT/build-tools
 ```
 ```
 ls
