@@ -25,6 +25,35 @@ java -v
 
 ### 2. Android Sdk
 
+#### install sdk wrapper apt
+```
+sudo apt install android-sdk
+```
+
+#### set as Android Home environment variable
+```
+export ANDROID_HOME=/usr/lib/android-sdk
+```
+
+#### move to android-sdk directory
+```
+cd /usr/lib/android-sdk
+```
+
+#### install latest command line tools (zip file)
+```
+wget https://dl.google.com/android/repository/commandlinetools-linux-6609375_latest.zip
+```
+
+
+#### unzip tools 
+```
+unzip commandlinetools-linux-6609375_latest.zip -d cmdline-tools/latest
+```
+
+
+
+
 
 
 
