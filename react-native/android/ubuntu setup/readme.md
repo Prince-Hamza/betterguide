@@ -121,9 +121,9 @@ $ANDROID_SDK_ROOT
 sudo chown $USER:$USER $ANDROID_SDK_ROOT -R
 ```
 
-#### run sdkmanager to check it is install and configured.it should give you list of commands and flags you can use
+#### run sdkmanager to check it is install and configured
 ```
-sdkmanager
+sdkmanager --version
 ```
 
 
