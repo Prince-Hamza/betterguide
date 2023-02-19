@@ -13,7 +13,7 @@
 sudo apt update
 ```
 
-#### install open jdk 11 (used by latest Android Studio (Bumblebee)
+#### install open jdk 11 (used by latest Android Studio (Bumblebee))
 ```
 sudo apt install openjdk-11-jdk
 
