@@ -78,6 +78,10 @@ sdkmanager
 ```
 
 
+#### update sdkmanager to latest version
+```
+sdkmanager --update
+```
 
 
 
