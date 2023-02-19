@@ -138,7 +138,7 @@ sdkmanager "platform-tools"
 ```
 
 
-#### download platform tools : latest & most commonly used
+#### download build tools : latest & most commonly used
 ```
 sdkmanager "build-tools;31.0.0"
 ```
