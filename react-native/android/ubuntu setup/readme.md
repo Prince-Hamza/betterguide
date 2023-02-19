@@ -101,6 +101,14 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 source ~/.bashrc
 ```
 
+#### Check environment variables.you should see var value
+```
+$JAVA_HOME
+```
+```
+$ANDROID_SDK_ROOT
+```
+
 
 
 
