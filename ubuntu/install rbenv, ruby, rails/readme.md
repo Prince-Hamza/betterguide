@@ -35,4 +35,42 @@ source ~/.bashrc
 rbenv --version
 ```
 
+```
+rbenv install -l
+```
+
+
+```
+rbenv install 2.7.6
+```
+
+```
+ruby -v
+```
+
+
+```
+echo "gem: --no-document" > ~/.gemrc
+```
+
+```
+gem install bundler
+```
+
+
+```
+gem env home
+```
+
+
+```
+gem install rails
+```
+
+or a spcific version
+
+```
+gem install rails -v 6.1.4.1
+```
+
 
