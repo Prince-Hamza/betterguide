@@ -63,6 +63,8 @@ gem env home
 ```
 
 
+latest version
+
 ```
 gem install rails
 ```
