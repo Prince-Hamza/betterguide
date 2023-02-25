@@ -69,7 +69,7 @@ latest version
 gem install rails
 ```
 
-or a spcific version
+or a specific version
 
 ```
 gem install rails -v 6.1.4.1
