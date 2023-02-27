@@ -32,13 +32,13 @@ android {
 ```
 
 
-#### delete existing assets folder (if any) at android/app/src/main/res/
+#### delete existing assets folder (if any) at :  android/app/src/main/res/
 
-#### create an empty assets folder at android/app/src/main/res/
+#### create an empty assets folder at :  android/app/src/main/res/
 
 #### declare settings
 ```
-react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle 
+npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle 
 --assets-dest android/app/src/main/res/
 ```
 
