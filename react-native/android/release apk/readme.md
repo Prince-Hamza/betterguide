@@ -32,9 +32,8 @@ android {
 ```
 
 
-#### delete existing assets folder (if any) at :  android/app/src/main/res/
-
-#### create an empty assets folder at :  android/app/src/main/res/
+#### must be an empty assets folder at :  android/app/src/main
+#### must be an empty assets folder at :  android/app/src/main/res/
 
 #### declare settings
 ```
