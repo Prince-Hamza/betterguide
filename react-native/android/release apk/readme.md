@@ -4,7 +4,7 @@ path/to/jdk/bin and path/to/sdk/platform-tools should also be added to environme
 
 #### generate keystore file in project root
 ```
-keytool -genkey -v -keystore your_key_name.keystore -alias your_key_alias -keyalg RSA -keysize 2048 -validity 10000
+keytool -genkey -v -keystore release.keystore -alias releaseAlias -keyalg RSA -keysize 2048 -validity 10000
 ```
 
 #### move file to ./android/app
