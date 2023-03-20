@@ -1,4 +1,5 @@
 #### prerequisite
+yarn must be pre-installed with npm install -g yarn.
 environment setup for react native.
 path/to/jdk/bin and path/to/sdk/platform-tools should also be added to environment variables to use keytools service.
 
@@ -35,9 +36,9 @@ android {
 #### must be an empty assets folder at :  android/app/src/main
 #### must be an empty assets folder at :  android/app/src/main/res/
 
-#### declare settings
+#### Add following to package.json's scripts section | this command declares settings
 ```
-SET NODE_OPTIONS=--openssl-legacy-provider && npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/assets
+"release": "SET NODE_OPTIONS=--openssl-legacy-provider && npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/assets"
 ```
 
 #### move to android folder
