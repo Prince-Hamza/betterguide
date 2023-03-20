@@ -37,7 +37,7 @@ android {
 
 #### declare settings
 ```
-npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/assets
+SET NODE_OPTIONS=--openssl-legacy-provider && npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/assets
 ```
 
 #### move to android folder
