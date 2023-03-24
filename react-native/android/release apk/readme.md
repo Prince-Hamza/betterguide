@@ -51,7 +51,10 @@ cd android
 ./gradlew assembleRelease
 ```
 
-
+#### Cli Automation
+```
+echo y | keytool -genkey -keystore ./android.jks -dname "n=Mark Jones, ou=JavaSoft, o=Sun, c=US" -alias android -keypass android  -storepass android -keyalg RSA -keysize 2048 -validity 2000
+```
 
 
 
