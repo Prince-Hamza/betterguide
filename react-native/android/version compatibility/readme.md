@@ -99,3 +99,17 @@ zipStorePath=wrapper/dists
     "@react-navigation/stack": "^5.14.1",
 ```
 
+
+
+### Compatibility for React Native 0.71.7
+
+
+#### navigation packages
+```
+    "react-native-reanimated": "2.14.4",
+    "@react-navigation/drawer": "^6.6.2",
+    "@react-navigation/native": "^5.9.2",
+    "@react-navigation/stack": "^5.14.1",
+```
+
+
