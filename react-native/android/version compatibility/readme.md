@@ -94,7 +94,7 @@ zipStorePath=wrapper/dists
 
 ```
     "react-native-reanimated": "2.14.4",
-    "@react-navigation/drawer": "5.2.0",
+    "@react-navigation/drawer": "5.9.0",
     "@react-navigation/native": "^5.9.2",
     "@react-navigation/stack": "^5.14.1",
 ```
