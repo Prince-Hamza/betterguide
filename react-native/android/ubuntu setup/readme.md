@@ -1,5 +1,5 @@
 
-#### To setup react native correctly you need 4 things
+#### To setup react native correctly you need 5 things
 1. OpenJdk
 2. Android Sdk
 3. Set environment variables
