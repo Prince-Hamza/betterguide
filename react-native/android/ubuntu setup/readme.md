@@ -21,7 +21,7 @@ sudo apt install openjdk-11-jdk
 
 #### check version
 ```
-java -v
+java --version
 ```
 
 ### 2. Android Sdk
